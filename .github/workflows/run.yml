@@ -1,0 +1,9 @@
+name: Run Test
+on: [workflow_dispatch]
+jobs:
+  run:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Test started"
+      - run: echo "Runner is working"
+      - run: echo "✅ Test completed"
