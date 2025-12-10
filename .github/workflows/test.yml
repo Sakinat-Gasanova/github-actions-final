@@ -1,0 +1,12 @@
+name: Simple Test
+on: [workflow_dispatch]
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - name: Step 1
+        run: echo "GitHub Actions Test Started"
+      - name: Step 2
+        run: echo "âœ… Runner is working"
+      - name: Step 3
+        run: echo "í¾‰ TEST COMPLETED SUCCESSFULLY!"
